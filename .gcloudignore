@@ -1,0 +1,14 @@
+.gcloudignore
+.dockerignore
+.venv
+.git
+**/__pycache__
+*.egg-info
+.pytest_cache
+build
+dist
+examples
+scripts
+tests
+*.png
+BRIEF.md

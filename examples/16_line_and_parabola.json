@@ -1,0 +1,450 @@
+{
+  "version": "1.0",
+  "plotter_version": "0.1.0",
+  "equations": [
+    {
+      "index": 0,
+      "input": "2x + 3y = 6",
+      "type": "implicit",
+      "normalised": "2*x + 3*y = 6",
+      "latex": "2 x + 3 y = 6",
+      "canonical": "2*x + 3*y - 6 = 0",
+      "classification": "linear",
+      "families": [
+        "linear"
+      ],
+      "x_intercepts": [
+        {
+          "x": {
+            "exact": "3",
+            "float": 3.0
+          },
+          "y": {
+            "exact": "0",
+            "float": 0.0
+          }
+        }
+      ],
+      "y_intercepts": [
+        {
+          "x": {
+            "exact": "0",
+            "float": 0.0
+          },
+          "y": {
+            "exact": "2",
+            "float": 2.0
+          }
+        }
+      ],
+      "domain": {
+        "method": "exact",
+        "exact": "Reals",
+        "intervals": [
+          {
+            "lower": {
+              "exact": "-oo",
+              "float": null
+            },
+            "upper": {
+              "exact": "oo",
+              "float": null
+            },
+            "left_open": true,
+            "right_open": true,
+            "text": "(-∞, ∞)"
+          }
+        ],
+        "text": "(-∞, ∞)"
+      },
+      "range": {
+        "method": "exact",
+        "exact": "Reals",
+        "intervals": [
+          {
+            "lower": {
+              "exact": "-oo",
+              "float": null
+            },
+            "upper": {
+              "exact": "oo",
+              "float": null
+            },
+            "left_open": true,
+            "right_open": true,
+            "text": "(-∞, ∞)"
+          }
+        ],
+        "text": "(-∞, ∞)"
+      },
+      "stationary_points": [],
+      "vertical_tangents": [],
+      "symmetry": {
+        "axes": []
+      },
+      "details": {
+        "vertical": false,
+        "slope": {
+          "exact": "-2/3",
+          "float": -0.666666666667
+        },
+        "y_intercept": {
+          "exact": "2",
+          "float": 2.0
+        },
+        "slope_intercept_form": "y = 2 - 2*x/3"
+      },
+      "methods": {
+        "domain": "exact",
+        "range": "exact",
+        "stationary_points": "exact",
+        "symmetry": "exact",
+        "vertical_tangents": "exact",
+        "x_intercepts": "exact",
+        "y_intercepts": "exact"
+      }
+    },
+    {
+      "index": 1,
+      "input": "y = 2sin(x) + x/2",
+      "type": "explicit",
+      "normalised": "y = x/2 + 2*sin(x)",
+      "latex": "y = \\frac{x}{2} + 2 \\sin{\\left(x \\right)}",
+      "classification": "trigonometric",
+      "families": [
+        "trigonometric"
+      ],
+      "domain": {
+        "method": "exact",
+        "exact": "Reals",
+        "intervals": [
+          {
+            "lower": {
+              "exact": "-oo",
+              "float": null
+            },
+            "upper": {
+              "exact": "oo",
+              "float": null
+            },
+            "left_open": true,
+            "right_open": true,
+            "text": "(-∞, ∞)"
+          }
+        ],
+        "text": "(-∞, ∞)"
+      },
+      "range": {
+        "method": "numeric_estimate",
+        "exact": null,
+        "intervals": [
+          {
+            "lower": {
+              "exact": null,
+              "float": -4.81397319744
+            },
+            "upper": {
+              "exact": null,
+              "float": 4.81397319744
+            },
+            "left_open": false,
+            "right_open": false,
+            "text": "[-4.81397, 4.81397]"
+          }
+        ],
+        "text": "≈ [-4.81397, 4.81397]",
+        "note": "sampled on x ∈ [-7, 7]"
+      },
+      "x_intercepts": [
+        {
+          "x": {
+            "exact": null,
+            "float": -1.24504830212e-17
+          },
+          "y": {
+            "exact": "0",
+            "float": 0.0
+          }
+        }
+      ],
+      "y_intercept": {
+        "x": {
+          "exact": "0",
+          "float": 0.0
+        },
+        "y": {
+          "exact": "0",
+          "float": 0.0
+        }
+      },
+      "general_solutions": {
+        "stationary_points": "x ∈ {2*pi*n + acos(-1/4) | n ∈ ℤ} ∪ {2*pi*n - acos(-1/4) + 2*pi | n ∈ ℤ}",
+        "points_of_inflection": "x ∈ {2*pi*n | n ∈ ℤ} ∪ {2*pi*n + pi | n ∈ ℤ}"
+      },
+      "stationary_points": [
+        {
+          "x": {
+            "exact": "-2*pi + acos(-1/4)",
+            "float": -4.45970872524
+          },
+          "y": {
+            "exact": "-pi + acos(-1/4)/2 + sqrt(15)/2",
+            "float": -0.293362689518
+          },
+          "nature": "local maximum"
+        },
+        {
+          "x": {
+            "exact": "-acos(-1/4)",
+            "float": -1.82347658194
+          },
+          "y": {
+            "exact": "-sqrt(15)/2 - acos(-1/4)/2",
+            "float": -2.84822996407
+          },
+          "nature": "local minimum"
+        },
+        {
+          "x": {
+            "exact": "acos(-1/4)",
+            "float": 1.82347658194
+          },
+          "y": {
+            "exact": "acos(-1/4)/2 + sqrt(15)/2",
+            "float": 2.84822996407
+          },
+          "nature": "local maximum"
+        },
+        {
+          "x": {
+            "exact": "-acos(-1/4) + 2*pi",
+            "float": 4.45970872524
+          },
+          "y": {
+            "exact": "-sqrt(15)/2 - acos(-1/4)/2 + pi",
+            "float": 0.293362689518
+          },
+          "nature": "local minimum"
+        }
+      ],
+      "points_of_inflection": [
+        {
+          "x": {
+            "exact": "-2*pi",
+            "float": -6.28318530718
+          },
+          "y": {
+            "exact": "-pi",
+            "float": -3.14159265359
+          }
+        },
+        {
+          "x": {
+            "exact": "-pi",
+            "float": -3.14159265359
+          },
+          "y": {
+            "exact": "-pi/2",
+            "float": -1.57079632679
+          }
+        },
+        {
+          "x": {
+            "exact": "0",
+            "float": 0.0
+          },
+          "y": {
+            "exact": "0",
+            "float": 0.0
+          }
+        },
+        {
+          "x": {
+            "exact": "pi",
+            "float": 3.14159265359
+          },
+          "y": {
+            "exact": "pi/2",
+            "float": 1.57079632679
+          }
+        },
+        {
+          "x": {
+            "exact": "2*pi",
+            "float": 6.28318530718
+          },
+          "y": {
+            "exact": "pi",
+            "float": 3.14159265359
+          }
+        }
+      ],
+      "asymptotes": {
+        "vertical": [],
+        "horizontal": [],
+        "oblique": [
+          {
+            "slope": {
+              "exact": "1/2",
+              "float": 0.5
+            },
+            "intercept": {
+              "exact": "AccumBounds(-2, 2)",
+              "float": null
+            },
+            "equation": "y = AccumBounds(x/2 - 2, x/2 + 2)",
+            "as": "x→±∞"
+          }
+        ]
+      },
+      "holes": [],
+      "symmetry": {
+        "parity": "odd",
+        "description": "symmetric about the origin"
+      },
+      "periodicity": {
+        "periodic": false,
+        "period": null
+      },
+      "end_behaviour": {
+        "x→+∞": "y→+∞",
+        "x→-∞": "y→-∞"
+      },
+      "increasing_intervals": [
+        {
+          "lower": {
+            "exact": null,
+            "float": -7.0
+          },
+          "upper": {
+            "exact": "-2*pi + acos(-1/4)",
+            "float": -4.45970872524
+          },
+          "left_open": true,
+          "right_open": true,
+          "text": "(-7, -2*pi + acos(-1/4))"
+        },
+        {
+          "lower": {
+            "exact": "-acos(-1/4)",
+            "float": -1.82347658194
+          },
+          "upper": {
+            "exact": "acos(-1/4)",
+            "float": 1.82347658194
+          },
+          "left_open": true,
+          "right_open": true,
+          "text": "(-acos(-1/4), acos(-1/4))"
+        },
+        {
+          "lower": {
+            "exact": "-acos(-1/4) + 2*pi",
+            "float": 4.45970872524
+          },
+          "upper": {
+            "exact": null,
+            "float": 7.0
+          },
+          "left_open": true,
+          "right_open": true,
+          "text": "(-acos(-1/4) + 2*pi, 7)"
+        }
+      ],
+      "decreasing_intervals": [
+        {
+          "lower": {
+            "exact": "-2*pi + acos(-1/4)",
+            "float": -4.45970872524
+          },
+          "upper": {
+            "exact": "-acos(-1/4)",
+            "float": -1.82347658194
+          },
+          "left_open": true,
+          "right_open": true,
+          "text": "(-2*pi + acos(-1/4), -acos(-1/4))"
+        },
+        {
+          "lower": {
+            "exact": "acos(-1/4)",
+            "float": 1.82347658194
+          },
+          "upper": {
+            "exact": "-acos(-1/4) + 2*pi",
+            "float": 4.45970872524
+          },
+          "left_open": true,
+          "right_open": true,
+          "text": "(acos(-1/4), -acos(-1/4) + 2*pi)"
+        }
+      ],
+      "monotonicity_scope": "viewport",
+      "methods": {
+        "asymptotes": "exact",
+        "domain": "exact",
+        "monotonicity": "viewport",
+        "points_of_inflection": "exact_in_viewport",
+        "range": "numeric_estimate",
+        "stationary_points": "exact_in_viewport",
+        "symmetry": "exact",
+        "x_intercepts": "numeric_in_viewport"
+      }
+    }
+  ],
+  "intersections": [
+    {
+      "equations": [
+        0,
+        1
+      ],
+      "points": [
+        {
+          "x": {
+            "exact": null,
+            "float": 0.661371652274
+          },
+          "y": {
+            "exact": null,
+            "float": 1.55908556515
+          }
+        }
+      ],
+      "method": "numeric_in_viewport"
+    }
+  ],
+  "viewport": {
+    "x": [
+      -7.0,
+      7.0
+    ],
+    "y": [
+      -6.0,
+      6.0
+    ],
+    "aspect": "auto",
+    "auto": true
+  },
+  "warnings": [
+    {
+      "equation": 1,
+      "field": "range",
+      "code": "timeout",
+      "message": "range: symbolic computation timed out after 3.0s; numeric estimate used where possible"
+    }
+  ],
+  "timing_ms": {
+    "analysis": 3235,
+    "render": 225,
+    "total": 3459
+  },
+  "image": {
+    "format": "png",
+    "mime_type": "image/png",
+    "width": 990,
+    "height": 742,
+    "units": "px",
+    "encoding": "base64",
+    "data": "iVBORw0KGgoAAAANSUhEUgAAA94AAALmCAYAAAC0M0xfAAAAOnRFWHRTb2Z0...(truncated; see PNG)"
+  }
+}

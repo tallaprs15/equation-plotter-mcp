@@ -1,0 +1,241 @@
+{
+  "version": "1.0",
+  "plotter_version": "0.1.0",
+  "equations": [
+    {
+      "index": 0,
+      "input": "x^2 + y^2 = 25",
+      "type": "implicit",
+      "normalised": "x**2 + y**2 = 25",
+      "latex": "x^{2} + y^{2} = 25",
+      "canonical": "x**2 + y**2 - 25 = 0",
+      "classification": "circle",
+      "families": [
+        "conic"
+      ],
+      "x_intercepts": [
+        {
+          "x": {
+            "exact": "-5",
+            "float": -5.0
+          },
+          "y": {
+            "exact": "0",
+            "float": 0.0
+          }
+        },
+        {
+          "x": {
+            "exact": "5",
+            "float": 5.0
+          },
+          "y": {
+            "exact": "0",
+            "float": 0.0
+          }
+        }
+      ],
+      "y_intercepts": [
+        {
+          "x": {
+            "exact": "0",
+            "float": 0.0
+          },
+          "y": {
+            "exact": "-5",
+            "float": -5.0
+          }
+        },
+        {
+          "x": {
+            "exact": "0",
+            "float": 0.0
+          },
+          "y": {
+            "exact": "5",
+            "float": 5.0
+          }
+        }
+      ],
+      "domain": {
+        "method": "exact",
+        "exact": "Interval(-5, 5)",
+        "intervals": [
+          {
+            "lower": {
+              "exact": "-5",
+              "float": -5.0
+            },
+            "upper": {
+              "exact": "5",
+              "float": 5.0
+            },
+            "left_open": false,
+            "right_open": false,
+            "text": "[-5, 5]"
+          }
+        ],
+        "text": "[-5, 5]"
+      },
+      "range": {
+        "method": "exact",
+        "exact": "Interval(-5, 5)",
+        "intervals": [
+          {
+            "lower": {
+              "exact": "-5",
+              "float": -5.0
+            },
+            "upper": {
+              "exact": "5",
+              "float": 5.0
+            },
+            "left_open": false,
+            "right_open": false,
+            "text": "[-5, 5]"
+          }
+        ],
+        "text": "[-5, 5]"
+      },
+      "stationary_points": [
+        {
+          "x": {
+            "exact": "0",
+            "float": 0.0
+          },
+          "y": {
+            "exact": "-5",
+            "float": -5.0
+          },
+          "nature": "local minimum"
+        },
+        {
+          "x": {
+            "exact": "0",
+            "float": 0.0
+          },
+          "y": {
+            "exact": "5",
+            "float": 5.0
+          },
+          "nature": "local maximum"
+        }
+      ],
+      "vertical_tangents": [
+        {
+          "x": {
+            "exact": "-5",
+            "float": -5.0
+          },
+          "y": {
+            "exact": "0",
+            "float": 0.0
+          }
+        },
+        {
+          "x": {
+            "exact": "5",
+            "float": 5.0
+          },
+          "y": {
+            "exact": "0",
+            "float": 0.0
+          }
+        }
+      ],
+      "symmetry": {
+        "axes": [
+          "y-axis",
+          "x-axis",
+          "origin",
+          "y = x"
+        ]
+      },
+      "details": {
+        "coefficients": {
+          "A": {
+            "exact": "1",
+            "float": 1.0
+          },
+          "B": {
+            "exact": "0",
+            "float": 0.0
+          },
+          "C": {
+            "exact": "1",
+            "float": 1.0
+          },
+          "D": {
+            "exact": "0",
+            "float": 0.0
+          },
+          "E": {
+            "exact": "0",
+            "float": 0.0
+          },
+          "F": {
+            "exact": "-25",
+            "float": -25.0
+          }
+        },
+        "general_form": "A*x**2 + B*x*y + C*y**2 + D*x + E*y + F = 0",
+        "discriminant": {
+          "exact": "-4",
+          "float": -4.0
+        },
+        "centre": {
+          "x": {
+            "exact": "0",
+            "float": 0.0
+          },
+          "y": {
+            "exact": "0",
+            "float": 0.0
+          }
+        },
+        "radius": {
+          "exact": "5",
+          "float": 5.0
+        },
+        "standard_form": "x**2 + y**2 = 25"
+      },
+      "methods": {
+        "domain": "exact",
+        "range": "exact",
+        "stationary_points": "exact",
+        "symmetry": "exact",
+        "vertical_tangents": "exact",
+        "x_intercepts": "exact",
+        "y_intercepts": "exact"
+      }
+    }
+  ],
+  "intersections": [],
+  "viewport": {
+    "x": [
+      -8.0,
+      8.0
+    ],
+    "y": [
+      -6.0,
+      6.0
+    ],
+    "aspect": "equal",
+    "auto": true
+  },
+  "warnings": [],
+  "timing_ms": {
+    "analysis": 185,
+    "render": 205,
+    "total": 390
+  },
+  "image": {
+    "format": "png",
+    "mime_type": "image/png",
+    "width": 990,
+    "height": 742,
+    "units": "px",
+    "encoding": "base64",
+    "data": "iVBORw0KGgoAAAANSUhEUgAAA94AAALmCAYAAAC0M0xfAAAAOnRFWHRTb2Z0...(truncated; see PNG)"
+  }
+}

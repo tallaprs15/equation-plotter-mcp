@@ -1,0 +1,418 @@
+{
+  "version": "1.0",
+  "plotter_version": "0.1.0",
+  "equations": [
+    {
+      "index": 0,
+      "input": "y = e^x",
+      "type": "explicit",
+      "normalised": "y = exp(x)",
+      "latex": "y = e^{x}",
+      "classification": "exponential",
+      "families": [
+        "exponential"
+      ],
+      "domain": {
+        "method": "exact",
+        "exact": "Reals",
+        "intervals": [
+          {
+            "lower": {
+              "exact": "-oo",
+              "float": null
+            },
+            "upper": {
+              "exact": "oo",
+              "float": null
+            },
+            "left_open": true,
+            "right_open": true,
+            "text": "(-∞, ∞)"
+          }
+        ],
+        "text": "(-∞, ∞)"
+      },
+      "range": {
+        "method": "exact",
+        "exact": "Interval.open(0, oo)",
+        "intervals": [
+          {
+            "lower": {
+              "exact": "0",
+              "float": 0.0
+            },
+            "upper": {
+              "exact": "oo",
+              "float": null
+            },
+            "left_open": true,
+            "right_open": true,
+            "text": "(0, ∞)"
+          }
+        ],
+        "text": "(0, ∞)"
+      },
+      "x_intercepts": [],
+      "y_intercept": {
+        "x": {
+          "exact": "0",
+          "float": 0.0
+        },
+        "y": {
+          "exact": "1",
+          "float": 1.0
+        }
+      },
+      "stationary_points": [],
+      "points_of_inflection": [],
+      "asymptotes": {
+        "vertical": [],
+        "horizontal": [
+          {
+            "y": {
+              "exact": "0",
+              "float": 0.0
+            },
+            "equation": "y = 0",
+            "as": "x→-∞"
+          }
+        ],
+        "oblique": []
+      },
+      "holes": [],
+      "symmetry": {
+        "parity": "neither",
+        "description": "no even/odd symmetry"
+      },
+      "periodicity": {
+        "periodic": false,
+        "period": null
+      },
+      "end_behaviour": {
+        "x→+∞": "outside domain",
+        "x→-∞": "y→0"
+      },
+      "increasing_intervals": [
+        {
+          "lower": {
+            "exact": "-oo",
+            "float": null
+          },
+          "upper": {
+            "exact": "oo",
+            "float": null
+          },
+          "left_open": true,
+          "right_open": true,
+          "text": "(-∞, ∞)"
+        }
+      ],
+      "decreasing_intervals": [],
+      "monotonicity_scope": "global",
+      "methods": {
+        "asymptotes": "exact",
+        "domain": "exact",
+        "monotonicity": "exact",
+        "points_of_inflection": "exact",
+        "range": "exact",
+        "stationary_points": "exact",
+        "symmetry": "exact",
+        "x_intercepts": "exact"
+      }
+    },
+    {
+      "index": 1,
+      "input": "y = ln(x)",
+      "type": "explicit",
+      "normalised": "y = log(x)",
+      "latex": "y = \\ln{\\left(x \\right)}",
+      "classification": "logarithmic",
+      "families": [
+        "logarithmic"
+      ],
+      "domain": {
+        "method": "exact",
+        "exact": "Interval.open(0, oo)",
+        "intervals": [
+          {
+            "lower": {
+              "exact": "0",
+              "float": 0.0
+            },
+            "upper": {
+              "exact": "oo",
+              "float": null
+            },
+            "left_open": true,
+            "right_open": true,
+            "text": "(0, ∞)"
+          }
+        ],
+        "text": "(0, ∞)"
+      },
+      "range": {
+        "method": "exact",
+        "exact": "Interval(-oo, oo)",
+        "intervals": [
+          {
+            "lower": {
+              "exact": "-oo",
+              "float": null
+            },
+            "upper": {
+              "exact": "oo",
+              "float": null
+            },
+            "left_open": true,
+            "right_open": true,
+            "text": "(-∞, ∞)"
+          }
+        ],
+        "text": "(-∞, ∞)"
+      },
+      "x_intercepts": [
+        {
+          "x": {
+            "exact": "1",
+            "float": 1.0
+          },
+          "y": {
+            "exact": "0",
+            "float": 0.0
+          }
+        }
+      ],
+      "y_intercept": null,
+      "stationary_points": [],
+      "points_of_inflection": [],
+      "asymptotes": {
+        "vertical": [],
+        "horizontal": [],
+        "oblique": []
+      },
+      "holes": [],
+      "symmetry": {
+        "parity": "neither",
+        "description": "no even/odd symmetry"
+      },
+      "periodicity": {
+        "periodic": false,
+        "period": null
+      },
+      "end_behaviour": {
+        "x→+∞": "y→+∞",
+        "x→-∞": "outside domain"
+      },
+      "increasing_intervals": [
+        {
+          "lower": {
+            "exact": "0",
+            "float": 0.0
+          },
+          "upper": {
+            "exact": "oo",
+            "float": null
+          },
+          "left_open": true,
+          "right_open": true,
+          "text": "(0, ∞)"
+        }
+      ],
+      "decreasing_intervals": [],
+      "monotonicity_scope": "global",
+      "methods": {
+        "asymptotes": "exact",
+        "domain": "exact",
+        "monotonicity": "exact",
+        "points_of_inflection": "exact",
+        "range": "exact",
+        "stationary_points": "exact",
+        "symmetry": "numeric",
+        "x_intercepts": "exact"
+      }
+    },
+    {
+      "index": 2,
+      "input": "y = x",
+      "type": "explicit",
+      "normalised": "y = x",
+      "latex": "y = x",
+      "classification": "linear",
+      "families": [
+        "polynomial"
+      ],
+      "domain": {
+        "method": "exact",
+        "exact": "Reals",
+        "intervals": [
+          {
+            "lower": {
+              "exact": "-oo",
+              "float": null
+            },
+            "upper": {
+              "exact": "oo",
+              "float": null
+            },
+            "left_open": true,
+            "right_open": true,
+            "text": "(-∞, ∞)"
+          }
+        ],
+        "text": "(-∞, ∞)"
+      },
+      "range": {
+        "method": "exact",
+        "exact": "Interval(-oo, oo)",
+        "intervals": [
+          {
+            "lower": {
+              "exact": "-oo",
+              "float": null
+            },
+            "upper": {
+              "exact": "oo",
+              "float": null
+            },
+            "left_open": true,
+            "right_open": true,
+            "text": "(-∞, ∞)"
+          }
+        ],
+        "text": "(-∞, ∞)"
+      },
+      "x_intercepts": [
+        {
+          "x": {
+            "exact": "0",
+            "float": 0.0
+          },
+          "y": {
+            "exact": "0",
+            "float": 0.0
+          }
+        }
+      ],
+      "y_intercept": {
+        "x": {
+          "exact": "0",
+          "float": 0.0
+        },
+        "y": {
+          "exact": "0",
+          "float": 0.0
+        }
+      },
+      "stationary_points": [],
+      "points_of_inflection": [],
+      "asymptotes": {
+        "vertical": [],
+        "horizontal": [],
+        "oblique": []
+      },
+      "holes": [],
+      "symmetry": {
+        "parity": "odd",
+        "description": "symmetric about the origin"
+      },
+      "periodicity": {
+        "periodic": false,
+        "period": null
+      },
+      "end_behaviour": {
+        "x→+∞": "y→+∞",
+        "x→-∞": "y→-∞"
+      },
+      "increasing_intervals": [
+        {
+          "lower": {
+            "exact": "-oo",
+            "float": null
+          },
+          "upper": {
+            "exact": "oo",
+            "float": null
+          },
+          "left_open": true,
+          "right_open": true,
+          "text": "(-∞, ∞)"
+        }
+      ],
+      "decreasing_intervals": [],
+      "monotonicity_scope": "global",
+      "details": {
+        "slope": {
+          "exact": "1",
+          "float": 1.0
+        },
+        "y_intercept": {
+          "exact": "0",
+          "float": 0.0
+        }
+      },
+      "methods": {
+        "asymptotes": "exact",
+        "domain": "exact",
+        "monotonicity": "exact",
+        "points_of_inflection": "exact",
+        "range": "exact",
+        "stationary_points": "exact",
+        "symmetry": "exact",
+        "x_intercepts": "exact"
+      }
+    }
+  ],
+  "intersections": [
+    {
+      "equations": [
+        0,
+        1
+      ],
+      "points": [],
+      "method": "numeric_in_viewport"
+    },
+    {
+      "equations": [
+        0,
+        2
+      ],
+      "points": [],
+      "method": "numeric_in_viewport"
+    },
+    {
+      "equations": [
+        1,
+        2
+      ],
+      "points": [],
+      "method": "numeric_in_viewport"
+    }
+  ],
+  "viewport": {
+    "x": [
+      -2.5,
+      3.5
+    ],
+    "y": [
+      -1.5,
+      4.5
+    ],
+    "aspect": "auto",
+    "auto": true
+  },
+  "warnings": [],
+  "timing_ms": {
+    "analysis": 202,
+    "render": 205,
+    "total": 408
+  },
+  "image": {
+    "format": "png",
+    "mime_type": "image/png",
+    "width": 990,
+    "height": 742,
+    "units": "px",
+    "encoding": "base64",
+    "data": "iVBORw0KGgoAAAANSUhEUgAAA94AAALmCAYAAAC0M0xfAAAAOnRFWHRTb2Z0...(truncated; see PNG)"
+  }
+}

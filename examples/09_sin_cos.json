@@ -1,0 +1,722 @@
+{
+  "version": "1.0",
+  "plotter_version": "0.1.0",
+  "equations": [
+    {
+      "index": 0,
+      "input": "y = sin(x)",
+      "type": "explicit",
+      "normalised": "y = sin(x)",
+      "latex": "y = \\sin{\\left(x \\right)}",
+      "classification": "trigonometric",
+      "families": [
+        "trigonometric"
+      ],
+      "domain": {
+        "method": "exact",
+        "exact": "Reals",
+        "intervals": [
+          {
+            "lower": {
+              "exact": "-oo",
+              "float": null
+            },
+            "upper": {
+              "exact": "oo",
+              "float": null
+            },
+            "left_open": true,
+            "right_open": true,
+            "text": "(-∞, ∞)"
+          }
+        ],
+        "text": "(-∞, ∞)"
+      },
+      "range": {
+        "method": "exact",
+        "exact": "Interval(-1, 1)",
+        "intervals": [
+          {
+            "lower": {
+              "exact": "-1",
+              "float": -1.0
+            },
+            "upper": {
+              "exact": "1",
+              "float": 1.0
+            },
+            "left_open": false,
+            "right_open": false,
+            "text": "[-1, 1]"
+          }
+        ],
+        "text": "[-1, 1]"
+      },
+      "general_solutions": {
+        "x_intercepts": "x ∈ {2*pi*n | n ∈ ℤ} ∪ {2*pi*n + pi | n ∈ ℤ}",
+        "stationary_points": "x ∈ {2*pi*n + pi/2 | n ∈ ℤ} ∪ {2*pi*n + 3*pi/2 | n ∈ ℤ}",
+        "points_of_inflection": "x ∈ {2*pi*n | n ∈ ℤ} ∪ {2*pi*n + pi | n ∈ ℤ}"
+      },
+      "x_intercepts": [
+        {
+          "x": {
+            "exact": "-2*pi",
+            "float": -6.28318530718
+          },
+          "y": {
+            "exact": "0",
+            "float": 0.0
+          }
+        },
+        {
+          "x": {
+            "exact": "-pi",
+            "float": -3.14159265359
+          },
+          "y": {
+            "exact": "0",
+            "float": 0.0
+          }
+        },
+        {
+          "x": {
+            "exact": "0",
+            "float": 0.0
+          },
+          "y": {
+            "exact": "0",
+            "float": 0.0
+          }
+        },
+        {
+          "x": {
+            "exact": "pi",
+            "float": 3.14159265359
+          },
+          "y": {
+            "exact": "0",
+            "float": 0.0
+          }
+        },
+        {
+          "x": {
+            "exact": "2*pi",
+            "float": 6.28318530718
+          },
+          "y": {
+            "exact": "0",
+            "float": 0.0
+          }
+        }
+      ],
+      "y_intercept": {
+        "x": {
+          "exact": "0",
+          "float": 0.0
+        },
+        "y": {
+          "exact": "0",
+          "float": 0.0
+        }
+      },
+      "stationary_points": [
+        {
+          "x": {
+            "exact": "-3*pi/2",
+            "float": -4.71238898038
+          },
+          "y": {
+            "exact": "1",
+            "float": 1.0
+          },
+          "nature": "local maximum"
+        },
+        {
+          "x": {
+            "exact": "-pi/2",
+            "float": -1.57079632679
+          },
+          "y": {
+            "exact": "-1",
+            "float": -1.0
+          },
+          "nature": "local minimum"
+        },
+        {
+          "x": {
+            "exact": "pi/2",
+            "float": 1.57079632679
+          },
+          "y": {
+            "exact": "1",
+            "float": 1.0
+          },
+          "nature": "local maximum"
+        },
+        {
+          "x": {
+            "exact": "3*pi/2",
+            "float": 4.71238898038
+          },
+          "y": {
+            "exact": "-1",
+            "float": -1.0
+          },
+          "nature": "local minimum"
+        }
+      ],
+      "points_of_inflection": [
+        {
+          "x": {
+            "exact": "-2*pi",
+            "float": -6.28318530718
+          },
+          "y": {
+            "exact": "0",
+            "float": 0.0
+          }
+        },
+        {
+          "x": {
+            "exact": "-pi",
+            "float": -3.14159265359
+          },
+          "y": {
+            "exact": "0",
+            "float": 0.0
+          }
+        },
+        {
+          "x": {
+            "exact": "0",
+            "float": 0.0
+          },
+          "y": {
+            "exact": "0",
+            "float": 0.0
+          }
+        },
+        {
+          "x": {
+            "exact": "pi",
+            "float": 3.14159265359
+          },
+          "y": {
+            "exact": "0",
+            "float": 0.0
+          }
+        },
+        {
+          "x": {
+            "exact": "2*pi",
+            "float": 6.28318530718
+          },
+          "y": {
+            "exact": "0",
+            "float": 0.0
+          }
+        }
+      ],
+      "asymptotes": {
+        "vertical": [],
+        "horizontal": [],
+        "oblique": []
+      },
+      "holes": [],
+      "symmetry": {
+        "parity": "odd",
+        "description": "symmetric about the origin"
+      },
+      "periodicity": {
+        "periodic": true,
+        "period": {
+          "exact": "2*pi",
+          "float": 6.28318530718
+        }
+      },
+      "end_behaviour": {
+        "x→+∞": "oscillates between -1 and 1",
+        "x→-∞": "oscillates between -1 and 1"
+      },
+      "increasing_intervals": [
+        {
+          "lower": {
+            "exact": null,
+            "float": -6.2831853072
+          },
+          "upper": {
+            "exact": "-3*pi/2",
+            "float": -4.71238898038
+          },
+          "left_open": true,
+          "right_open": true,
+          "text": "(-6.28319, -3*pi/2)"
+        },
+        {
+          "lower": {
+            "exact": "-pi/2",
+            "float": -1.57079632679
+          },
+          "upper": {
+            "exact": "pi/2",
+            "float": 1.57079632679
+          },
+          "left_open": true,
+          "right_open": true,
+          "text": "(-pi/2, pi/2)"
+        },
+        {
+          "lower": {
+            "exact": "3*pi/2",
+            "float": 4.71238898038
+          },
+          "upper": {
+            "exact": null,
+            "float": 6.2831853072
+          },
+          "left_open": true,
+          "right_open": true,
+          "text": "(3*pi/2, 6.28319)"
+        }
+      ],
+      "decreasing_intervals": [
+        {
+          "lower": {
+            "exact": "-3*pi/2",
+            "float": -4.71238898038
+          },
+          "upper": {
+            "exact": "-pi/2",
+            "float": -1.57079632679
+          },
+          "left_open": true,
+          "right_open": true,
+          "text": "(-3*pi/2, -pi/2)"
+        },
+        {
+          "lower": {
+            "exact": "pi/2",
+            "float": 1.57079632679
+          },
+          "upper": {
+            "exact": "3*pi/2",
+            "float": 4.71238898038
+          },
+          "left_open": true,
+          "right_open": true,
+          "text": "(pi/2, 3*pi/2)"
+        }
+      ],
+      "monotonicity_scope": "viewport",
+      "methods": {
+        "asymptotes": "exact",
+        "domain": "exact",
+        "monotonicity": "viewport",
+        "points_of_inflection": "exact_in_viewport",
+        "range": "exact",
+        "stationary_points": "exact_in_viewport",
+        "symmetry": "exact",
+        "x_intercepts": "exact_in_viewport"
+      }
+    },
+    {
+      "index": 1,
+      "input": "y = cos(x)",
+      "type": "explicit",
+      "normalised": "y = cos(x)",
+      "latex": "y = \\cos{\\left(x \\right)}",
+      "classification": "trigonometric",
+      "families": [
+        "trigonometric"
+      ],
+      "domain": {
+        "method": "exact",
+        "exact": "Reals",
+        "intervals": [
+          {
+            "lower": {
+              "exact": "-oo",
+              "float": null
+            },
+            "upper": {
+              "exact": "oo",
+              "float": null
+            },
+            "left_open": true,
+            "right_open": true,
+            "text": "(-∞, ∞)"
+          }
+        ],
+        "text": "(-∞, ∞)"
+      },
+      "range": {
+        "method": "exact",
+        "exact": "Interval(-1, 1)",
+        "intervals": [
+          {
+            "lower": {
+              "exact": "-1",
+              "float": -1.0
+            },
+            "upper": {
+              "exact": "1",
+              "float": 1.0
+            },
+            "left_open": false,
+            "right_open": false,
+            "text": "[-1, 1]"
+          }
+        ],
+        "text": "[-1, 1]"
+      },
+      "general_solutions": {
+        "x_intercepts": "x ∈ {2*pi*n + pi/2 | n ∈ ℤ} ∪ {2*pi*n + 3*pi/2 | n ∈ ℤ}",
+        "stationary_points": "x ∈ {2*pi*n | n ∈ ℤ} ∪ {2*pi*n + pi | n ∈ ℤ}",
+        "points_of_inflection": "x ∈ {2*pi*n + pi/2 | n ∈ ℤ} ∪ {2*pi*n + 3*pi/2 | n ∈ ℤ}"
+      },
+      "x_intercepts": [
+        {
+          "x": {
+            "exact": "-3*pi/2",
+            "float": -4.71238898038
+          },
+          "y": {
+            "exact": "0",
+            "float": 0.0
+          }
+        },
+        {
+          "x": {
+            "exact": "-pi/2",
+            "float": -1.57079632679
+          },
+          "y": {
+            "exact": "0",
+            "float": 0.0
+          }
+        },
+        {
+          "x": {
+            "exact": "pi/2",
+            "float": 1.57079632679
+          },
+          "y": {
+            "exact": "0",
+            "float": 0.0
+          }
+        },
+        {
+          "x": {
+            "exact": "3*pi/2",
+            "float": 4.71238898038
+          },
+          "y": {
+            "exact": "0",
+            "float": 0.0
+          }
+        }
+      ],
+      "y_intercept": {
+        "x": {
+          "exact": "0",
+          "float": 0.0
+        },
+        "y": {
+          "exact": "1",
+          "float": 1.0
+        }
+      },
+      "stationary_points": [
+        {
+          "x": {
+            "exact": "-2*pi",
+            "float": -6.28318530718
+          },
+          "y": {
+            "exact": "1",
+            "float": 1.0
+          },
+          "nature": "local maximum"
+        },
+        {
+          "x": {
+            "exact": "-pi",
+            "float": -3.14159265359
+          },
+          "y": {
+            "exact": "-1",
+            "float": -1.0
+          },
+          "nature": "local minimum"
+        },
+        {
+          "x": {
+            "exact": "0",
+            "float": 0.0
+          },
+          "y": {
+            "exact": "1",
+            "float": 1.0
+          },
+          "nature": "local maximum"
+        },
+        {
+          "x": {
+            "exact": "pi",
+            "float": 3.14159265359
+          },
+          "y": {
+            "exact": "-1",
+            "float": -1.0
+          },
+          "nature": "local minimum"
+        },
+        {
+          "x": {
+            "exact": "2*pi",
+            "float": 6.28318530718
+          },
+          "y": {
+            "exact": "1",
+            "float": 1.0
+          },
+          "nature": "local maximum"
+        }
+      ],
+      "points_of_inflection": [
+        {
+          "x": {
+            "exact": "-3*pi/2",
+            "float": -4.71238898038
+          },
+          "y": {
+            "exact": "0",
+            "float": 0.0
+          }
+        },
+        {
+          "x": {
+            "exact": "-pi/2",
+            "float": -1.57079632679
+          },
+          "y": {
+            "exact": "0",
+            "float": 0.0
+          }
+        },
+        {
+          "x": {
+            "exact": "pi/2",
+            "float": 1.57079632679
+          },
+          "y": {
+            "exact": "0",
+            "float": 0.0
+          }
+        },
+        {
+          "x": {
+            "exact": "3*pi/2",
+            "float": 4.71238898038
+          },
+          "y": {
+            "exact": "0",
+            "float": 0.0
+          }
+        }
+      ],
+      "asymptotes": {
+        "vertical": [],
+        "horizontal": [],
+        "oblique": []
+      },
+      "holes": [],
+      "symmetry": {
+        "parity": "even",
+        "description": "symmetric about the y-axis"
+      },
+      "periodicity": {
+        "periodic": true,
+        "period": {
+          "exact": "2*pi",
+          "float": 6.28318530718
+        }
+      },
+      "end_behaviour": {
+        "x→+∞": "oscillates between -1 and 1",
+        "x→-∞": "oscillates between -1 and 1"
+      },
+      "increasing_intervals": [
+        {
+          "lower": {
+            "exact": null,
+            "float": -6.2831853072
+          },
+          "upper": {
+            "exact": "-2*pi",
+            "float": -6.28318530718
+          },
+          "left_open": true,
+          "right_open": true,
+          "text": "(-6.28319, -2*pi)"
+        },
+        {
+          "lower": {
+            "exact": "-pi",
+            "float": -3.14159265359
+          },
+          "upper": {
+            "exact": "0",
+            "float": 0.0
+          },
+          "left_open": true,
+          "right_open": true,
+          "text": "(-pi, 0)"
+        },
+        {
+          "lower": {
+            "exact": "pi",
+            "float": 3.14159265359
+          },
+          "upper": {
+            "exact": "2*pi",
+            "float": 6.28318530718
+          },
+          "left_open": true,
+          "right_open": true,
+          "text": "(pi, 2*pi)"
+        }
+      ],
+      "decreasing_intervals": [
+        {
+          "lower": {
+            "exact": "-2*pi",
+            "float": -6.28318530718
+          },
+          "upper": {
+            "exact": "-pi",
+            "float": -3.14159265359
+          },
+          "left_open": true,
+          "right_open": true,
+          "text": "(-2*pi, -pi)"
+        },
+        {
+          "lower": {
+            "exact": "0",
+            "float": 0.0
+          },
+          "upper": {
+            "exact": "pi",
+            "float": 3.14159265359
+          },
+          "left_open": true,
+          "right_open": true,
+          "text": "(0, pi)"
+        },
+        {
+          "lower": {
+            "exact": "2*pi",
+            "float": 6.28318530718
+          },
+          "upper": {
+            "exact": null,
+            "float": 6.2831853072
+          },
+          "left_open": true,
+          "right_open": true,
+          "text": "(2*pi, 6.28319)"
+        }
+      ],
+      "monotonicity_scope": "viewport",
+      "methods": {
+        "asymptotes": "exact",
+        "domain": "exact",
+        "monotonicity": "viewport",
+        "points_of_inflection": "exact_in_viewport",
+        "range": "exact",
+        "stationary_points": "exact_in_viewport",
+        "symmetry": "exact",
+        "x_intercepts": "exact_in_viewport"
+      }
+    }
+  ],
+  "intersections": [
+    {
+      "equations": [
+        0,
+        1
+      ],
+      "points": [
+        {
+          "x": {
+            "exact": "-7*pi/4",
+            "float": -5.49778714378
+          },
+          "y": {
+            "exact": "sqrt(2)/2",
+            "float": 0.707106781187
+          }
+        },
+        {
+          "x": {
+            "exact": "-3*pi/4",
+            "float": -2.35619449019
+          },
+          "y": {
+            "exact": "-sqrt(2)/2",
+            "float": -0.707106781187
+          }
+        },
+        {
+          "x": {
+            "exact": "pi/4",
+            "float": 0.785398163397
+          },
+          "y": {
+            "exact": "sqrt(2)/2",
+            "float": 0.707106781187
+          }
+        },
+        {
+          "x": {
+            "exact": "5*pi/4",
+            "float": 3.92699081699
+          },
+          "y": {
+            "exact": "-sqrt(2)/2",
+            "float": -0.707106781187
+          }
+        }
+      ],
+      "method": "exact_in_viewport"
+    }
+  ],
+  "viewport": {
+    "x": [
+      -6.2831853072,
+      6.2831853072
+    ],
+    "y": [
+      -1.25,
+      1.25
+    ],
+    "aspect": "auto",
+    "auto": true
+  },
+  "warnings": [],
+  "timing_ms": {
+    "analysis": 224,
+    "render": 220,
+    "total": 444
+  },
+  "image": {
+    "format": "png",
+    "mime_type": "image/png",
+    "width": 990,
+    "height": 742,
+    "units": "px",
+    "encoding": "base64",
+    "data": "iVBORw0KGgoAAAANSUhEUgAAA94AAALmCAYAAAC0M0xfAAAAOnRFWHRTb2Z0...(truncated; see PNG)"
+  }
+}

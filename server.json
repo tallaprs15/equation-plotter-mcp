@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.tallaprs15/equation-plotter-mcp",
+  "title": "Equation Plotter",
+  "description": "Graph equations with exact analysis: intercepts, turning points, asymptotes, conics, and a PNG.",
+  "repository": {
+    "url": "https://github.com/tallaprs15/equation-plotter-mcp",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "equation-plotter-mcp",
+      "version": "1.0.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://equation-plotter-mcp-581039101175.australia-southeast1.run.app/mcp"
+    }
+  ]
+}

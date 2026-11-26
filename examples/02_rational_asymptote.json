@@ -1,0 +1,201 @@
+{
+  "version": "1.0",
+  "plotter_version": "0.1.0",
+  "equations": [
+    {
+      "index": 0,
+      "input": "f(x) = 1/(x-2)",
+      "type": "explicit",
+      "normalised": "f(x) = 1/(x - 2)",
+      "latex": "f(x) = \\frac{1}{x - 2}",
+      "classification": "rational",
+      "families": [
+        "rational"
+      ],
+      "domain": {
+        "method": "exact",
+        "exact": "Union(Interval.open(-oo, 2), Interval.open(2, oo))",
+        "intervals": [
+          {
+            "lower": {
+              "exact": "-oo",
+              "float": null
+            },
+            "upper": {
+              "exact": "2",
+              "float": 2.0
+            },
+            "left_open": true,
+            "right_open": true,
+            "text": "(-∞, 2)"
+          },
+          {
+            "lower": {
+              "exact": "2",
+              "float": 2.0
+            },
+            "upper": {
+              "exact": "oo",
+              "float": null
+            },
+            "left_open": true,
+            "right_open": true,
+            "text": "(2, ∞)"
+          }
+        ],
+        "text": "(-∞, 2) ∪ (2, ∞)"
+      },
+      "range": {
+        "method": "exact",
+        "exact": "Union(Interval.open(-oo, 0), Interval.open(0, oo))",
+        "intervals": [
+          {
+            "lower": {
+              "exact": "-oo",
+              "float": null
+            },
+            "upper": {
+              "exact": "0",
+              "float": 0.0
+            },
+            "left_open": true,
+            "right_open": true,
+            "text": "(-∞, 0)"
+          },
+          {
+            "lower": {
+              "exact": "0",
+              "float": 0.0
+            },
+            "upper": {
+              "exact": "oo",
+              "float": null
+            },
+            "left_open": true,
+            "right_open": true,
+            "text": "(0, ∞)"
+          }
+        ],
+        "text": "(-∞, 0) ∪ (0, ∞)"
+      },
+      "x_intercepts": [],
+      "y_intercept": {
+        "x": {
+          "exact": "0",
+          "float": 0.0
+        },
+        "y": {
+          "exact": "-1/2",
+          "float": -0.5
+        }
+      },
+      "stationary_points": [],
+      "points_of_inflection": [],
+      "asymptotes": {
+        "vertical": [
+          {
+            "x": {
+              "exact": "2",
+              "float": 2.0
+            },
+            "equation": "x = 2",
+            "left_limit": "-∞",
+            "right_limit": "∞"
+          }
+        ],
+        "horizontal": [
+          {
+            "y": {
+              "exact": "0",
+              "float": 0.0
+            },
+            "equation": "y = 0",
+            "as": "x→±∞"
+          }
+        ],
+        "oblique": []
+      },
+      "holes": [],
+      "symmetry": {
+        "parity": "neither",
+        "description": "no even/odd symmetry"
+      },
+      "periodicity": {
+        "periodic": false,
+        "period": null
+      },
+      "end_behaviour": {
+        "x→+∞": "y→0",
+        "x→-∞": "y→0"
+      },
+      "increasing_intervals": [],
+      "decreasing_intervals": [
+        {
+          "lower": {
+            "exact": "-oo",
+            "float": null
+          },
+          "upper": {
+            "exact": "2",
+            "float": 2.0
+          },
+          "left_open": true,
+          "right_open": true,
+          "text": "(-∞, 2)"
+        },
+        {
+          "lower": {
+            "exact": "2",
+            "float": 2.0
+          },
+          "upper": {
+            "exact": "oo",
+            "float": null
+          },
+          "left_open": true,
+          "right_open": true,
+          "text": "(2, ∞)"
+        }
+      ],
+      "monotonicity_scope": "global",
+      "methods": {
+        "asymptotes": "exact",
+        "domain": "exact",
+        "monotonicity": "exact",
+        "points_of_inflection": "exact",
+        "range": "exact",
+        "stationary_points": "exact",
+        "symmetry": "exact",
+        "x_intercepts": "exact"
+      }
+    }
+  ],
+  "intersections": [],
+  "viewport": {
+    "x": [
+      -3.0,
+      5.0
+    ],
+    "y": [
+      -4.0,
+      3.5
+    ],
+    "aspect": "auto",
+    "auto": true
+  },
+  "warnings": [],
+  "timing_ms": {
+    "analysis": 191,
+    "render": 207,
+    "total": 398
+  },
+  "image": {
+    "format": "png",
+    "mime_type": "image/png",
+    "width": 990,
+    "height": 742,
+    "units": "px",
+    "encoding": "base64",
+    "data": "iVBORw0KGgoAAAANSUhEUgAAA94AAALmCAYAAAC0M0xfAAAAOnRFWHRTb2Z0...(truncated; see PNG)"
+  }
+}

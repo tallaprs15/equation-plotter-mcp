@@ -1,0 +1,236 @@
+{
+  "version": "1.0",
+  "plotter_version": "0.1.0",
+  "equations": [
+    {
+      "index": 0,
+      "input": "r = 2cos(3theta)",
+      "type": "polar",
+      "normalised": "r = 2*cos(3*theta)",
+      "latex": "r = 2 \\cos{\\left(3 \\theta \\right)}",
+      "parameter": {
+        "name": "theta",
+        "range": [
+          {
+            "exact": "0",
+            "float": 0.0
+          },
+          {
+            "exact": "2*pi",
+            "float": 6.28318530718
+          }
+        ],
+        "chosen": "smallest common period with 2π"
+      },
+      "periodicity": {
+        "periodic": true,
+        "period": {
+          "exact": "2*pi/3",
+          "float": 2.09439510239
+        }
+      },
+      "classification": "rose",
+      "families": [
+        "trigonometric"
+      ],
+      "details": {
+        "k": {
+          "exact": "3",
+          "float": 3.0
+        },
+        "petals": 3,
+        "petal_length": {
+          "exact": "2",
+          "float": 2.0
+        }
+      },
+      "pole_crossings": [
+        {
+          "theta": {
+            "exact": "pi/6",
+            "float": 0.523598775598
+          }
+        },
+        {
+          "theta": {
+            "exact": "pi/2",
+            "float": 1.57079632679
+          }
+        },
+        {
+          "theta": {
+            "exact": "5*pi/6",
+            "float": 2.61799387799
+          }
+        },
+        {
+          "theta": {
+            "exact": "7*pi/6",
+            "float": 3.66519142919
+          }
+        },
+        {
+          "theta": {
+            "exact": "3*pi/2",
+            "float": 4.71238898038
+          }
+        },
+        {
+          "theta": {
+            "exact": "11*pi/6",
+            "float": 5.75958653158
+          }
+        }
+      ],
+      "r_range": {
+        "method": "exact",
+        "exact": "Interval(-2, 2)",
+        "intervals": [
+          {
+            "lower": {
+              "exact": "-2",
+              "float": -2.0
+            },
+            "upper": {
+              "exact": "2",
+              "float": 2.0
+            },
+            "left_open": false,
+            "right_open": false,
+            "text": "[-2, 2]"
+          }
+        ],
+        "text": "[-2, 2]"
+      },
+      "max_distance_from_pole": {
+        "exact": "2",
+        "float": 2.0
+      },
+      "x_intercepts": [
+        {
+          "x": {
+            "exact": "2",
+            "float": 2.0
+          },
+          "y": {
+            "exact": "0",
+            "float": 0.0
+          },
+          "theta": {
+            "exact": "0",
+            "float": 0.0
+          }
+        },
+        {
+          "x": {
+            "exact": "0",
+            "float": 0.0
+          },
+          "y": {
+            "exact": "0",
+            "float": 0.0
+          },
+          "note": "pole"
+        }
+      ],
+      "y_intercepts": [
+        {
+          "x": {
+            "exact": "0",
+            "float": 0.0
+          },
+          "y": {
+            "exact": "0",
+            "float": 0.0
+          },
+          "theta": {
+            "exact": "pi/2",
+            "float": 1.57079632679
+          }
+        }
+      ],
+      "symmetry": {
+        "axes": [
+          "x-axis"
+        ]
+      },
+      "domain": {
+        "method": "numeric_estimate",
+        "exact": null,
+        "intervals": [
+          {
+            "lower": {
+              "exact": null,
+              "float": -1.1249991484
+            },
+            "upper": {
+              "exact": null,
+              "float": 2.0
+            },
+            "left_open": false,
+            "right_open": false,
+            "text": "[-1.125, 2]"
+          }
+        ],
+        "text": "≈ [-1.125, 2]",
+        "note": "x-extent of the sampled curve"
+      },
+      "range": {
+        "method": "numeric_estimate",
+        "exact": null,
+        "intervals": [
+          {
+            "lower": {
+              "exact": null,
+              "float": -1.76017240344
+            },
+            "upper": {
+              "exact": null,
+              "float": 1.76017240344
+            },
+            "left_open": false,
+            "right_open": false,
+            "text": "[-1.76017, 1.76017]"
+          }
+        ],
+        "text": "≈ [-1.76017, 1.76017]",
+        "note": "y-extent of the sampled curve"
+      },
+      "methods": {
+        "domain": "numeric_estimate",
+        "pole_crossings": "exact",
+        "r_range": "exact",
+        "range": "numeric_estimate",
+        "symmetry": "numeric"
+      }
+    }
+  ],
+  "intersections": [],
+  "viewport": {
+    "x": [
+      -2.5,
+      3.5
+    ],
+    "y": [
+      -2.25,
+      2.25
+    ],
+    "aspect": "equal",
+    "auto": true
+  },
+  "warnings": [],
+  "timing_ms": {
+    "analysis": 287,
+    "render": 201,
+    "total": 488
+  },
+  "image": {
+    "format": "png",
+    "mime_type": "image/png",
+    "width": 990,
+    "height": 742,
+    "units": "px",
+    "encoding": "base64",
+    "data": "iVBORw0KGgoAAAANSUhEUgAAA94AAALmCAYAAAC0M0xfAAAAOnRFWHRTb2Z0...(truncated; see PNG)"
+  }
+}

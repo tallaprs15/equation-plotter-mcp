@@ -1,0 +1,253 @@
+{
+  "version": "1.0",
+  "plotter_version": "0.1.0",
+  "equations": [
+    {
+      "index": 0,
+      "input": "y = tan(x)",
+      "type": "explicit",
+      "normalised": "y = tan(x)",
+      "latex": "y = \\tan{\\left(x \\right)}",
+      "classification": "trigonometric",
+      "families": [
+        "trigonometric"
+      ],
+      "domain": {
+        "method": "exact",
+        "exact": "Complement(Reals, Union(ImageSet(Lambda(_n, 2*_n*pi + pi/2), Integers), ImageSet(Lambda(_n, 2*_n*pi + 3*pi/2), Integers)))",
+        "text": "ℝ \\ ({2*pi*n + pi/2 | n ∈ ℤ} ∪ {2*pi*n + 3*pi/2 | n ∈ ℤ})"
+      },
+      "range": {
+        "method": "numeric_estimate",
+        "exact": null,
+        "intervals": [
+          {
+            "lower": {
+              "exact": "-oo",
+              "float": null
+            },
+            "upper": {
+              "exact": "oo",
+              "float": null
+            },
+            "left_open": true,
+            "right_open": true,
+            "text": "(-∞, ∞)"
+          }
+        ],
+        "text": "≈ (-∞, ∞)",
+        "note": "sampled on x ∈ [-3.14159, 3.14159]"
+      },
+      "general_solutions": {
+        "x_intercepts": "x ∈ {pi*n | n ∈ ℤ}",
+        "points_of_inflection": "x ∈ {2*pi*n | n ∈ ℤ} ∪ {2*pi*n + pi | n ∈ ℤ}"
+      },
+      "x_intercepts": [
+        {
+          "x": {
+            "exact": "-pi",
+            "float": -3.14159265359
+          },
+          "y": {
+            "exact": "0",
+            "float": 0.0
+          }
+        },
+        {
+          "x": {
+            "exact": "0",
+            "float": 0.0
+          },
+          "y": {
+            "exact": "0",
+            "float": 0.0
+          }
+        },
+        {
+          "x": {
+            "exact": "pi",
+            "float": 3.14159265359
+          },
+          "y": {
+            "exact": "0",
+            "float": 0.0
+          }
+        }
+      ],
+      "y_intercept": {
+        "x": {
+          "exact": "0",
+          "float": 0.0
+        },
+        "y": {
+          "exact": "0",
+          "float": 0.0
+        }
+      },
+      "stationary_points": [],
+      "points_of_inflection": [
+        {
+          "x": {
+            "exact": "-pi",
+            "float": -3.14159265359
+          },
+          "y": {
+            "exact": "0",
+            "float": 0.0
+          }
+        },
+        {
+          "x": {
+            "exact": "0",
+            "float": 0.0
+          },
+          "y": {
+            "exact": "0",
+            "float": 0.0
+          }
+        },
+        {
+          "x": {
+            "exact": "pi",
+            "float": 3.14159265359
+          },
+          "y": {
+            "exact": "0",
+            "float": 0.0
+          }
+        }
+      ],
+      "asymptotes_general": {
+        "vertical": "x ∈ {2*pi*n + pi/2 | n ∈ ℤ} ∪ {2*pi*n + 3*pi/2 | n ∈ ℤ}"
+      },
+      "asymptotes": {
+        "vertical": [
+          {
+            "x": {
+              "exact": "-pi/2",
+              "float": -1.57079632679
+            },
+            "equation": "x = -pi/2",
+            "left_limit": "∞",
+            "right_limit": "-∞"
+          },
+          {
+            "x": {
+              "exact": "pi/2",
+              "float": 1.57079632679
+            },
+            "equation": "x = pi/2",
+            "left_limit": "∞",
+            "right_limit": "-∞"
+          }
+        ],
+        "horizontal": [],
+        "oblique": []
+      },
+      "holes": [],
+      "symmetry": {
+        "parity": "odd",
+        "description": "symmetric about the origin"
+      },
+      "periodicity": {
+        "periodic": true,
+        "period": {
+          "exact": "pi",
+          "float": 3.14159265359
+        }
+      },
+      "end_behaviour": {
+        "x→+∞": "oscillates between -∞ and ∞",
+        "x→-∞": "oscillates between -∞ and ∞"
+      },
+      "increasing_intervals": [
+        {
+          "lower": {
+            "exact": null,
+            "float": -3.1415926536
+          },
+          "upper": {
+            "exact": "-pi/2",
+            "float": -1.57079632679
+          },
+          "left_open": true,
+          "right_open": true,
+          "text": "(-3.14159, -pi/2)"
+        },
+        {
+          "lower": {
+            "exact": "-pi/2",
+            "float": -1.57079632679
+          },
+          "upper": {
+            "exact": "pi/2",
+            "float": 1.57079632679
+          },
+          "left_open": true,
+          "right_open": true,
+          "text": "(-pi/2, pi/2)"
+        },
+        {
+          "lower": {
+            "exact": "pi/2",
+            "float": 1.57079632679
+          },
+          "upper": {
+            "exact": null,
+            "float": 3.1415926536
+          },
+          "left_open": true,
+          "right_open": true,
+          "text": "(pi/2, 3.14159)"
+        }
+      ],
+      "decreasing_intervals": [],
+      "monotonicity_scope": "viewport",
+      "methods": {
+        "asymptotes": "exact_in_viewport",
+        "domain": "exact",
+        "monotonicity": "viewport",
+        "points_of_inflection": "exact_in_viewport",
+        "range": "numeric_estimate",
+        "stationary_points": "exact",
+        "symmetry": "exact",
+        "x_intercepts": "exact_in_viewport"
+      }
+    }
+  ],
+  "intersections": [],
+  "viewport": {
+    "x": [
+      -3.1415926536,
+      3.1415926536
+    ],
+    "y": [
+      -3.0,
+      3.0
+    ],
+    "aspect": "auto",
+    "auto": true
+  },
+  "warnings": [
+    {
+      "equation": 0,
+      "field": "range",
+      "code": "symbolic_failed",
+      "message": "range: symbolic computation not possible (NotImplementedError); numeric estimate used where possible"
+    }
+  ],
+  "timing_ms": {
+    "analysis": 289,
+    "render": 204,
+    "total": 493
+  },
+  "image": {
+    "format": "png",
+    "mime_type": "image/png",
+    "width": 990,
+    "height": 742,
+    "units": "px",
+    "encoding": "base64",
+    "data": "iVBORw0KGgoAAAANSUhEUgAAA94AAALmCAYAAAC0M0xfAAAAOnRFWHRTb2Z0...(truncated; see PNG)"
+  }
+}

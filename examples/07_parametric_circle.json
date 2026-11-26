@@ -1,0 +1,354 @@
+{
+  "version": "1.0",
+  "plotter_version": "0.1.0",
+  "equations": [
+    {
+      "index": 0,
+      "input": "x = cos(t), y = sin(t)",
+      "type": "parametric",
+      "normalised": "x = cos(t), y = sin(t)",
+      "latex": "x = \\cos{\\left(t \\right)},\\ y = \\sin{\\left(t \\right)}",
+      "parameter": {
+        "name": "t",
+        "range": [
+          {
+            "exact": "0",
+            "float": 0.0
+          },
+          {
+            "exact": "2*pi",
+            "float": 6.28318530718
+          }
+        ],
+        "chosen": "one full period"
+      },
+      "periodicity": {
+        "periodic": true,
+        "period": {
+          "exact": "2*pi",
+          "float": 6.28318530718
+        }
+      },
+      "cartesian_equation": {
+        "equation": "x**2 + y**2 - 1 = 0",
+        "method": "exact"
+      },
+      "details": {
+        "coefficients": {
+          "A": {
+            "exact": "1",
+            "float": 1.0
+          },
+          "B": {
+            "exact": "0",
+            "float": 0.0
+          },
+          "C": {
+            "exact": "1",
+            "float": 1.0
+          },
+          "D": {
+            "exact": "0",
+            "float": 0.0
+          },
+          "E": {
+            "exact": "0",
+            "float": 0.0
+          },
+          "F": {
+            "exact": "-1",
+            "float": -1.0
+          }
+        },
+        "general_form": "A*x**2 + B*x*y + C*y**2 + D*x + E*y + F = 0",
+        "discriminant": {
+          "exact": "-4",
+          "float": -4.0
+        },
+        "centre": {
+          "x": {
+            "exact": "0",
+            "float": 0.0
+          },
+          "y": {
+            "exact": "0",
+            "float": 0.0
+          }
+        },
+        "radius": {
+          "exact": "1",
+          "float": 1.0
+        },
+        "standard_form": "x**2 + y**2 = 1"
+      },
+      "classification": "circle",
+      "families": [
+        "trigonometric"
+      ],
+      "x_intercepts": [
+        {
+          "x": {
+            "exact": "1",
+            "float": 1.0
+          },
+          "y": {
+            "exact": "0",
+            "float": 0.0
+          },
+          "t": {
+            "exact": "0",
+            "float": 0.0
+          }
+        },
+        {
+          "x": {
+            "exact": "-1",
+            "float": -1.0
+          },
+          "y": {
+            "exact": "0",
+            "float": 0.0
+          },
+          "t": {
+            "exact": "pi",
+            "float": 3.14159265359
+          }
+        }
+      ],
+      "y_intercepts": [
+        {
+          "x": {
+            "exact": "0",
+            "float": 0.0
+          },
+          "y": {
+            "exact": "1",
+            "float": 1.0
+          },
+          "t": {
+            "exact": "pi/2",
+            "float": 1.57079632679
+          }
+        },
+        {
+          "x": {
+            "exact": "0",
+            "float": 0.0
+          },
+          "y": {
+            "exact": "-1",
+            "float": -1.0
+          },
+          "t": {
+            "exact": "3*pi/2",
+            "float": 4.71238898038
+          }
+        }
+      ],
+      "horizontal_tangents": [
+        {
+          "x": {
+            "exact": "0",
+            "float": 0.0
+          },
+          "y": {
+            "exact": "1",
+            "float": 1.0
+          },
+          "t": {
+            "exact": "pi/2",
+            "float": 1.57079632679
+          }
+        },
+        {
+          "x": {
+            "exact": "0",
+            "float": 0.0
+          },
+          "y": {
+            "exact": "-1",
+            "float": -1.0
+          },
+          "t": {
+            "exact": "3*pi/2",
+            "float": 4.71238898038
+          }
+        }
+      ],
+      "vertical_tangents": [
+        {
+          "x": {
+            "exact": "1",
+            "float": 1.0
+          },
+          "y": {
+            "exact": "0",
+            "float": 0.0
+          },
+          "t": {
+            "exact": "0",
+            "float": 0.0
+          }
+        },
+        {
+          "x": {
+            "exact": "-1",
+            "float": -1.0
+          },
+          "y": {
+            "exact": "0",
+            "float": 0.0
+          },
+          "t": {
+            "exact": "pi",
+            "float": 3.14159265359
+          }
+        }
+      ],
+      "stationary_points": [
+        {
+          "x": {
+            "exact": "0",
+            "float": 0.0
+          },
+          "y": {
+            "exact": "1",
+            "float": 1.0
+          },
+          "t": {
+            "exact": "pi/2",
+            "float": 1.57079632679
+          }
+        },
+        {
+          "x": {
+            "exact": "0",
+            "float": 0.0
+          },
+          "y": {
+            "exact": "-1",
+            "float": -1.0
+          },
+          "t": {
+            "exact": "3*pi/2",
+            "float": 4.71238898038
+          }
+        }
+      ],
+      "start_point": {
+        "x": {
+          "exact": "1",
+          "float": 1.0
+        },
+        "y": {
+          "exact": "0",
+          "float": 0.0
+        },
+        "t": {
+          "exact": "0",
+          "float": 0.0
+        }
+      },
+      "end_point": {
+        "x": {
+          "exact": "1",
+          "float": 1.0
+        },
+        "y": {
+          "exact": "0",
+          "float": 0.0
+        },
+        "t": {
+          "exact": "2*pi",
+          "float": 6.28318530718
+        }
+      },
+      "closed": true,
+      "domain": {
+        "method": "exact",
+        "exact": "Interval(-1, 1)",
+        "intervals": [
+          {
+            "lower": {
+              "exact": "-1",
+              "float": -1.0
+            },
+            "upper": {
+              "exact": "1",
+              "float": 1.0
+            },
+            "left_open": false,
+            "right_open": false,
+            "text": "[-1, 1]"
+          }
+        ],
+        "text": "[-1, 1]"
+      },
+      "range": {
+        "method": "exact",
+        "exact": "Interval(-1, 1)",
+        "intervals": [
+          {
+            "lower": {
+              "exact": "-1",
+              "float": -1.0
+            },
+            "upper": {
+              "exact": "1",
+              "float": 1.0
+            },
+            "left_open": false,
+            "right_open": false,
+            "text": "[-1, 1]"
+          }
+        ],
+        "text": "[-1, 1]"
+      },
+      "symmetry": {
+        "axes": [
+          "x-axis",
+          "y-axis",
+          "origin",
+          "y = x"
+        ]
+      },
+      "methods": {
+        "domain": "exact",
+        "horizontal_tangents": "exact",
+        "range": "exact",
+        "symmetry": "numeric",
+        "vertical_tangents": "exact",
+        "x_intercepts": "exact",
+        "y_intercepts": "exact"
+      }
+    }
+  ],
+  "intersections": [],
+  "viewport": {
+    "x": [
+      -1.6666666667,
+      1.6666666667
+    ],
+    "y": [
+      -1.25,
+      1.25
+    ],
+    "aspect": "equal",
+    "auto": true
+  },
+  "warnings": [],
+  "timing_ms": {
+    "analysis": 290,
+    "render": 205,
+    "total": 495
+  },
+  "image": {
+    "format": "png",
+    "mime_type": "image/png",
+    "width": 990,
+    "height": 742,
+    "units": "px",
+    "encoding": "base64",
+    "data": "iVBORw0KGgoAAAANSUhEUgAAA94AAALmCAYAAAC0M0xfAAAAOnRFWHRTb2Z0...(truncated; see PNG)"
+  }
+}

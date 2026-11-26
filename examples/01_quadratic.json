@@ -1,0 +1,220 @@
+{
+  "version": "1.0",
+  "plotter_version": "0.1.0",
+  "equations": [
+    {
+      "index": 0,
+      "input": "y = x^2 - 3x + 2",
+      "type": "explicit",
+      "normalised": "y = x**2 - 3*x + 2",
+      "latex": "y = x^{2} - 3 x + 2",
+      "classification": "quadratic",
+      "families": [
+        "polynomial"
+      ],
+      "domain": {
+        "method": "exact",
+        "exact": "Reals",
+        "intervals": [
+          {
+            "lower": {
+              "exact": "-oo",
+              "float": null
+            },
+            "upper": {
+              "exact": "oo",
+              "float": null
+            },
+            "left_open": true,
+            "right_open": true,
+            "text": "(-∞, ∞)"
+          }
+        ],
+        "text": "(-∞, ∞)"
+      },
+      "range": {
+        "method": "exact",
+        "exact": "Interval(-1/4, oo)",
+        "intervals": [
+          {
+            "lower": {
+              "exact": "-1/4",
+              "float": -0.25
+            },
+            "upper": {
+              "exact": "oo",
+              "float": null
+            },
+            "left_open": false,
+            "right_open": true,
+            "text": "[-1/4, ∞)"
+          }
+        ],
+        "text": "[-1/4, ∞)"
+      },
+      "x_intercepts": [
+        {
+          "x": {
+            "exact": "1",
+            "float": 1.0
+          },
+          "y": {
+            "exact": "0",
+            "float": 0.0
+          }
+        },
+        {
+          "x": {
+            "exact": "2",
+            "float": 2.0
+          },
+          "y": {
+            "exact": "0",
+            "float": 0.0
+          }
+        }
+      ],
+      "y_intercept": {
+        "x": {
+          "exact": "0",
+          "float": 0.0
+        },
+        "y": {
+          "exact": "2",
+          "float": 2.0
+        }
+      },
+      "stationary_points": [
+        {
+          "x": {
+            "exact": "3/2",
+            "float": 1.5
+          },
+          "y": {
+            "exact": "-1/4",
+            "float": -0.25
+          },
+          "nature": "local minimum"
+        }
+      ],
+      "points_of_inflection": [],
+      "asymptotes": {
+        "vertical": [],
+        "horizontal": [],
+        "oblique": []
+      },
+      "holes": [],
+      "symmetry": {
+        "parity": "neither",
+        "description": "no even/odd symmetry"
+      },
+      "periodicity": {
+        "periodic": false,
+        "period": null
+      },
+      "end_behaviour": {
+        "x→+∞": "y→+∞",
+        "x→-∞": "y→+∞"
+      },
+      "increasing_intervals": [
+        {
+          "lower": {
+            "exact": "3/2",
+            "float": 1.5
+          },
+          "upper": {
+            "exact": "oo",
+            "float": null
+          },
+          "left_open": true,
+          "right_open": true,
+          "text": "(3/2, ∞)"
+        }
+      ],
+      "decreasing_intervals": [
+        {
+          "lower": {
+            "exact": "-oo",
+            "float": null
+          },
+          "upper": {
+            "exact": "3/2",
+            "float": 1.5
+          },
+          "left_open": true,
+          "right_open": true,
+          "text": "(-∞, 3/2)"
+        }
+      ],
+      "monotonicity_scope": "global",
+      "details": {
+        "vertex": {
+          "x": {
+            "exact": "3/2",
+            "float": 1.5
+          },
+          "y": {
+            "exact": "-1/4",
+            "float": -0.25
+          }
+        },
+        "axis_of_symmetry": "x = 3/2",
+        "discriminant": {
+          "exact": "1",
+          "float": 1.0
+        },
+        "opens": "up",
+        "focus": {
+          "x": {
+            "exact": "3/2",
+            "float": 1.5
+          },
+          "y": {
+            "exact": "0",
+            "float": 0.0
+          }
+        },
+        "directrix": "y = -1/2",
+        "vertex_form": "y = (x - 3/2)**2 - 1/4"
+      },
+      "methods": {
+        "asymptotes": "exact",
+        "domain": "exact",
+        "monotonicity": "exact",
+        "points_of_inflection": "exact",
+        "range": "exact",
+        "stationary_points": "exact",
+        "symmetry": "exact",
+        "x_intercepts": "exact"
+      }
+    }
+  ],
+  "intersections": [],
+  "viewport": {
+    "x": [
+      -2.0,
+      4.0
+    ],
+    "y": [
+      -1.0,
+      5.0
+    ],
+    "aspect": "auto",
+    "auto": true
+  },
+  "warnings": [],
+  "timing_ms": {
+    "analysis": 185,
+    "render": 197,
+    "total": 383
+  },
+  "image": {
+    "format": "png",
+    "mime_type": "image/png",
+    "width": 990,
+    "height": 742,
+    "units": "px",
+    "encoding": "base64",
+    "data": "iVBORw0KGgoAAAANSUhEUgAAA94AAALmCAYAAAC0M0xfAAAAOnRFWHRTb2Z0...(truncated; see PNG)"
+  }
+}

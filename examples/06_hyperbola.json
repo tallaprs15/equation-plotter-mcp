@@ -1,0 +1,281 @@
+{
+  "version": "1.0",
+  "plotter_version": "0.1.0",
+  "equations": [
+    {
+      "index": 0,
+      "input": "x^2/9 - y^2/4 = 1",
+      "type": "implicit",
+      "normalised": "x**2/9 - y**2/4 = 1",
+      "latex": "\\frac{x^{2}}{9} - \\frac{y^{2}}{4} = 1",
+      "canonical": "x**2/9 - y**2/4 - 1 = 0",
+      "classification": "hyperbola",
+      "families": [
+        "conic"
+      ],
+      "x_intercepts": [
+        {
+          "x": {
+            "exact": "-3",
+            "float": -3.0
+          },
+          "y": {
+            "exact": "0",
+            "float": 0.0
+          }
+        },
+        {
+          "x": {
+            "exact": "3",
+            "float": 3.0
+          },
+          "y": {
+            "exact": "0",
+            "float": 0.0
+          }
+        }
+      ],
+      "y_intercepts": [],
+      "domain": {
+        "method": "exact",
+        "exact": "Union(Interval(-oo, -3), Interval(3, oo))",
+        "intervals": [
+          {
+            "lower": {
+              "exact": "-oo",
+              "float": null
+            },
+            "upper": {
+              "exact": "-3",
+              "float": -3.0
+            },
+            "left_open": true,
+            "right_open": false,
+            "text": "(-∞, -3]"
+          },
+          {
+            "lower": {
+              "exact": "3",
+              "float": 3.0
+            },
+            "upper": {
+              "exact": "oo",
+              "float": null
+            },
+            "left_open": false,
+            "right_open": true,
+            "text": "[3, ∞)"
+          }
+        ],
+        "text": "(-∞, -3] ∪ [3, ∞)"
+      },
+      "range": {
+        "method": "exact",
+        "exact": "Reals",
+        "intervals": [
+          {
+            "lower": {
+              "exact": "-oo",
+              "float": null
+            },
+            "upper": {
+              "exact": "oo",
+              "float": null
+            },
+            "left_open": true,
+            "right_open": true,
+            "text": "(-∞, ∞)"
+          }
+        ],
+        "text": "(-∞, ∞)"
+      },
+      "stationary_points": [],
+      "vertical_tangents": [
+        {
+          "x": {
+            "exact": "-3",
+            "float": -3.0
+          },
+          "y": {
+            "exact": "0",
+            "float": 0.0
+          }
+        },
+        {
+          "x": {
+            "exact": "3",
+            "float": 3.0
+          },
+          "y": {
+            "exact": "0",
+            "float": 0.0
+          }
+        }
+      ],
+      "symmetry": {
+        "axes": [
+          "y-axis",
+          "x-axis",
+          "origin"
+        ]
+      },
+      "details": {
+        "coefficients": {
+          "A": {
+            "exact": "1/9",
+            "float": 0.111111111111
+          },
+          "B": {
+            "exact": "0",
+            "float": 0.0
+          },
+          "C": {
+            "exact": "-1/4",
+            "float": -0.25
+          },
+          "D": {
+            "exact": "0",
+            "float": 0.0
+          },
+          "E": {
+            "exact": "0",
+            "float": 0.0
+          },
+          "F": {
+            "exact": "-1",
+            "float": -1.0
+          }
+        },
+        "general_form": "A*x**2 + B*x*y + C*y**2 + D*x + E*y + F = 0",
+        "discriminant": {
+          "exact": "1/9",
+          "float": 0.111111111111
+        },
+        "centre": {
+          "x": {
+            "exact": "0",
+            "float": 0.0
+          },
+          "y": {
+            "exact": "0",
+            "float": 0.0
+          }
+        },
+        "semi_transverse_axis": {
+          "exact": "3",
+          "float": 3.0
+        },
+        "semi_conjugate_axis": {
+          "exact": "2",
+          "float": 2.0
+        },
+        "eccentricity": {
+          "exact": "sqrt(13)/3",
+          "float": 1.20185042515
+        },
+        "transverse_axis_direction": [
+          {
+            "exact": "1",
+            "float": 1.0
+          },
+          {
+            "exact": "0",
+            "float": 0.0
+          }
+        ],
+        "asymptotes": [
+          "y = 2*x/3",
+          "y = -2*x/3"
+        ],
+        "standard_form": "x**2/9 - y**2/4 = 1",
+        "foci": [
+          {
+            "x": {
+              "exact": "sqrt(13)",
+              "float": 3.60555127546
+            },
+            "y": {
+              "exact": "0",
+              "float": 0.0
+            }
+          },
+          {
+            "x": {
+              "exact": "-sqrt(13)",
+              "float": -3.60555127546
+            },
+            "y": {
+              "exact": "0",
+              "float": 0.0
+            }
+          }
+        ],
+        "vertices": [
+          {
+            "x": {
+              "exact": "3",
+              "float": 3.0
+            },
+            "y": {
+              "exact": "0",
+              "float": 0.0
+            }
+          },
+          {
+            "x": {
+              "exact": "-3",
+              "float": -3.0
+            },
+            "y": {
+              "exact": "0",
+              "float": 0.0
+            }
+          }
+        ]
+      },
+      "asymptotes": {
+        "oblique_or_axis_aligned": [
+          "y = 2*x/3",
+          "y = -2*x/3"
+        ]
+      },
+      "methods": {
+        "domain": "exact",
+        "range": "exact",
+        "stationary_points": "exact",
+        "symmetry": "exact",
+        "vertical_tangents": "exact",
+        "x_intercepts": "exact",
+        "y_intercepts": "exact"
+      }
+    }
+  ],
+  "intersections": [],
+  "viewport": {
+    "x": [
+      -6.0,
+      6.0
+    ],
+    "y": [
+      -4.5,
+      4.5
+    ],
+    "aspect": "equal",
+    "auto": true
+  },
+  "warnings": [],
+  "timing_ms": {
+    "analysis": 188,
+    "render": 215,
+    "total": 402
+  },
+  "image": {
+    "format": "png",
+    "mime_type": "image/png",
+    "width": 990,
+    "height": 742,
+    "units": "px",
+    "encoding": "base64",
+    "data": "iVBORw0KGgoAAAANSUhEUgAAA94AAALmCAYAAAC0M0xfAAAAOnRFWHRTb2Z0...(truncated; see PNG)"
+  }
+}

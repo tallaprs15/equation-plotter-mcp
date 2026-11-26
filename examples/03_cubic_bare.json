@@ -1,0 +1,242 @@
+{
+  "version": "1.0",
+  "plotter_version": "0.1.0",
+  "equations": [
+    {
+      "index": 0,
+      "input": "x^3 - x",
+      "type": "explicit",
+      "normalised": "y = x**3 - x",
+      "latex": "y = x^{3} - x",
+      "classification": "cubic (polynomial, degree 3)",
+      "families": [
+        "polynomial"
+      ],
+      "domain": {
+        "method": "exact",
+        "exact": "Reals",
+        "intervals": [
+          {
+            "lower": {
+              "exact": "-oo",
+              "float": null
+            },
+            "upper": {
+              "exact": "oo",
+              "float": null
+            },
+            "left_open": true,
+            "right_open": true,
+            "text": "(-∞, ∞)"
+          }
+        ],
+        "text": "(-∞, ∞)"
+      },
+      "range": {
+        "method": "exact",
+        "exact": "Interval(-oo, oo)",
+        "intervals": [
+          {
+            "lower": {
+              "exact": "-oo",
+              "float": null
+            },
+            "upper": {
+              "exact": "oo",
+              "float": null
+            },
+            "left_open": true,
+            "right_open": true,
+            "text": "(-∞, ∞)"
+          }
+        ],
+        "text": "(-∞, ∞)"
+      },
+      "x_intercepts": [
+        {
+          "x": {
+            "exact": "-1",
+            "float": -1.0
+          },
+          "y": {
+            "exact": "0",
+            "float": 0.0
+          }
+        },
+        {
+          "x": {
+            "exact": "0",
+            "float": 0.0
+          },
+          "y": {
+            "exact": "0",
+            "float": 0.0
+          }
+        },
+        {
+          "x": {
+            "exact": "1",
+            "float": 1.0
+          },
+          "y": {
+            "exact": "0",
+            "float": 0.0
+          }
+        }
+      ],
+      "y_intercept": {
+        "x": {
+          "exact": "0",
+          "float": 0.0
+        },
+        "y": {
+          "exact": "0",
+          "float": 0.0
+        }
+      },
+      "stationary_points": [
+        {
+          "x": {
+            "exact": "-sqrt(3)/3",
+            "float": -0.57735026919
+          },
+          "y": {
+            "exact": "2*sqrt(3)/9",
+            "float": 0.38490017946
+          },
+          "nature": "local maximum"
+        },
+        {
+          "x": {
+            "exact": "sqrt(3)/3",
+            "float": 0.57735026919
+          },
+          "y": {
+            "exact": "-2*sqrt(3)/9",
+            "float": -0.38490017946
+          },
+          "nature": "local minimum"
+        }
+      ],
+      "points_of_inflection": [
+        {
+          "x": {
+            "exact": "0",
+            "float": 0.0
+          },
+          "y": {
+            "exact": "0",
+            "float": 0.0
+          }
+        }
+      ],
+      "asymptotes": {
+        "vertical": [],
+        "horizontal": [],
+        "oblique": []
+      },
+      "holes": [],
+      "symmetry": {
+        "parity": "odd",
+        "description": "symmetric about the origin"
+      },
+      "periodicity": {
+        "periodic": false,
+        "period": null
+      },
+      "end_behaviour": {
+        "x→+∞": "y→+∞",
+        "x→-∞": "y→-∞"
+      },
+      "increasing_intervals": [
+        {
+          "lower": {
+            "exact": "-oo",
+            "float": null
+          },
+          "upper": {
+            "exact": "-sqrt(3)/3",
+            "float": -0.57735026919
+          },
+          "left_open": true,
+          "right_open": true,
+          "text": "(-∞, -sqrt(3)/3)"
+        },
+        {
+          "lower": {
+            "exact": "sqrt(3)/3",
+            "float": 0.57735026919
+          },
+          "upper": {
+            "exact": "oo",
+            "float": null
+          },
+          "left_open": true,
+          "right_open": true,
+          "text": "(sqrt(3)/3, ∞)"
+        }
+      ],
+      "decreasing_intervals": [
+        {
+          "lower": {
+            "exact": "-sqrt(3)/3",
+            "float": -0.57735026919
+          },
+          "upper": {
+            "exact": "sqrt(3)/3",
+            "float": 0.57735026919
+          },
+          "left_open": true,
+          "right_open": true,
+          "text": "(-sqrt(3)/3, sqrt(3)/3)"
+        }
+      ],
+      "monotonicity_scope": "global",
+      "details": {
+        "degree": 3,
+        "leading_coefficient": {
+          "exact": "1",
+          "float": 1.0
+        }
+      },
+      "methods": {
+        "asymptotes": "exact",
+        "domain": "exact",
+        "monotonicity": "exact",
+        "points_of_inflection": "exact",
+        "range": "exact",
+        "stationary_points": "exact",
+        "symmetry": "exact",
+        "x_intercepts": "exact"
+      }
+    }
+  ],
+  "intersections": [],
+  "viewport": {
+    "x": [
+      -3.0,
+      3.0
+    ],
+    "y": [
+      -3.0,
+      3.0
+    ],
+    "aspect": "auto",
+    "auto": true
+  },
+  "warnings": [],
+  "timing_ms": {
+    "analysis": 185,
+    "render": 199,
+    "total": 384
+  },
+  "image": {
+    "format": "png",
+    "mime_type": "image/png",
+    "width": 990,
+    "height": 742,
+    "units": "px",
+    "encoding": "base64",
+    "data": "iVBORw0KGgoAAAANSUhEUgAAA94AAALmCAYAAAC0M0xfAAAAOnRFWHRTb2Z0...(truncated; see PNG)"
+  }
+}
