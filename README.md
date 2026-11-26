@@ -37,11 +37,11 @@ x²/9 − y²/4 = 1 and y = x/2 meet?"*.
 Add this URL as a remote MCP server (no sign-in):
 
 ```
-https://equation-plotter-mcp-581039101175.australia-southeast1.run.app/mcp
+https://equation-plotter-mcp-912770876196.australia-southeast1.run.app/mcp
 ```
 
 * **Claude.ai / Claude Desktop:** Settings → Connectors → *Add custom connector* → paste the URL.
-* **Claude Code:** `claude mcp add --transport http equation-plotter https://equation-plotter-mcp-581039101175.australia-southeast1.run.app/mcp`
+* **Claude Code:** `claude mcp add --transport http equation-plotter https://equation-plotter-mcp-912770876196.australia-southeast1.run.app/mcp`
 * **Cursor / VS Code / others:** add a remote (Streamable HTTP) server with that URL.
 
 The hosted server is free and rate-limited per caller, with no uptime guarantee. For heavy or
@@ -350,7 +350,7 @@ import anyio, json
 from mcp.client import Client
 
 async def main():
-    async with Client("https://equation-plotter-mcp-581039101175.australia-southeast1.run.app/mcp") as c:   # or StdioServerParameters(command="equation-plotter-mcp")
+    async with Client("https://equation-plotter-mcp-912770876196.australia-southeast1.run.app/mcp") as c:   # or StdioServerParameters(command="equation-plotter-mcp")
         r = await c.call_tool("plot_equations", {"equations": ["y = x^3 - x"]})
         analysis = json.loads(r.content[0].text)    # r.content[1] is the PNG
 anyio.run(main)
